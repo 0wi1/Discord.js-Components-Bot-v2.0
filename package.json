@@ -1,0 +1,40 @@
+{
+  "name": "compono",
+  "version": "2.0.0",
+  "description": "A modern Discord.js bot using Components V2 - ContainerBuilder, TextDisplayBuilder, SeparatorBuilder, ButtonBuilder & more. NO EmbedBuilder!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "register": "node deploy-commands.js",
+    "delete-global": "node delete-commands.js global",
+    "delete-guild": "node delete-commands.js guild",
+    "delete-all": "node delete-commands.js all"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "slash-commands",
+    "prefix-commands",
+    "components-v2",
+    "containerbuilder",
+    "textdisplaybuilder",
+    "separatorbuilder",
+    "buttonbuilder",
+    "actionrowbuilder"
+  ],
+  "author": "William | 0.wi1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0wi1/compono"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
